@@ -8,11 +8,6 @@
 - [Explanation](#explanation)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Analytical Queries](#analytical-queries)
-- [Miscellinious Tasks](#miscellinious-tasks)
-- [Handling Errors](#handling-errors)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -79,8 +74,28 @@ Ensure you have the following installed on your system:
 - **SBT** (Scala Build Tool)
 - **Git** (for cloning the repository)
 
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/MeeraLizJoy/Movie-Analysis.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Movie-Analysis
+    ```
+3. Install the necessary dependencies:
+    ```bash
+    sbt install
+    ```
 
+## License
+This project is licensed under the MIT License.
 
+## Acknowledgements
+- **Apache Spark**: The powerful data processing engine used for this project.
+- **Scala**: The programming language used to build this project.
+- **Movielens Dataset**: The dataset used for movie analysis.
+- **SBT**: The build tool used for managing project dependencies and compilation.
 
 
 
